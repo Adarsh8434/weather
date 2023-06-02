@@ -1,0 +1,74 @@
+.weatherBg{
+  background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/HD-Weather-Background.jpg");
+  height:70vh;
+  display:flex;
+  align-items:center;
+  flex-direction:column ;
+  justify-content: center;
+  background-repeat: no-repeat;
+  
+}
+.heading{
+  color:white;
+  font-weight: 700;
+}
+.weatherResultBox{
+  margin: auto;
+  width: 500px;
+  height: 450px;
+  background-color: rgb(170, 228, 234);
+}
+.weatherIcon{
+  height:100px ;
+  width: 100px; 
+  margin: 2rem;
+}
+.weatherCity{
+  font-size: 35px;
+}
+.weatherTemp{
+  font-size:55px ;
+  font-weight: 700;
+}
+.humidity{
+  display:inline;
+  float:left;
+  font-weight: 700;
+}
+.Wind{
+  display:inline;
+  float:right;
+  /* position: absolute; */
+  font-weight: 700;
+  margin-top: -30px;
+}
+.col{
+  display: flex;
+  text-align: left;
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+}
+.col2{
+ /* position: absolute; */
+  /* text-align: right; */
+  height: 40px;
+  width: 70px;
+  margin-top: -70px;
+  float: right;
+  margin-right: 20px;
+  /* margin: 5px; */
+}
+.real{
+  /* text-align: center; */
+  font-weight: 700;
+  margin-right: 90px;
+  margin-top: -20px;
+}
+.realI{
+  margin-right: 90px;
+  height: 40px;
+  width: 70px;
+  text-align: center;
+  margin-top: -80px;
+}
